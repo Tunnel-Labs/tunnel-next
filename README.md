@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This was a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and modified to use [Tunnel](https://tunnel.dev), enabling collaboration and review tools in development, previews, and production.
+
+You can interact with this demo at https://tunnel-next.up.railway.app.
 
 ## Getting Started
 
