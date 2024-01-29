@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         {children}
         {(
-          process.env.NODE_ENV !== "developement" 
+          process.env.NODE_ENV !== "development" 
           // Uncomment the following line to disable the Tunnel Toolbar in production
           // && process.env.RAILWAY_GIT_BRANCH !== 'main'
           ) && (
