@@ -5,6 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@tunnel/cli':
+    specifier: ^0.4.5
+    version: 0.4.5
+  '@tunnel/nextjs':
+    specifier: ^0.0.11
+    version: 0.0.11(next@14.1.0)(react@18.2.0)
   next:
     specifier: 14.1.0
     version: 14.1.0(react-dom@18.2.0)(react@18.2.0)
@@ -277,6 +283,21 @@ packages:
     resolution: {integrity: sha512-E4KcWTpoLHqwPHLxidpOqQbcrZVgi0rsmmZXUle1jXmJfuIf/UWpczUJ7MZZ5tlxytgJXyp0w4PGkkeLiuIdZw==}
     dependencies:
       tslib: 2.6.2
+    dev: false
+
+  /@tunnel/cli@0.4.5:
+    resolution: {integrity: sha512-diQs/Gd2A3vAxgKhe5tQOHM5BS45zzbuGp0A3zwZ3KE1t72CGiK2D7n3mf7QlrcPoWj2SW69Yzae/ep6PWVibg==}
+    hasBin: true
+    dev: false
+
+  /@tunnel/nextjs@0.0.11(next@14.1.0)(react@18.2.0):
+    resolution: {integrity: sha512-aMNI/i4YMmWc4Y4IvYke5D/VWY/xS0y3tu1WZzdQHY1P1lAk5+d/RKx0nExnpIUm8bo3sFuDo/ZP4wHIKTk0KQ==}
+    peerDependencies:
+      next: '>=13'
+      react: ^18
+    dependencies:
+      next: 14.1.0(react-dom@18.2.0)(react@18.2.0)
+      react: 18.2.0
     dev: false
 
   /@types/json5@0.0.29:
